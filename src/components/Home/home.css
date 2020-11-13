@@ -1,0 +1,28 @@
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+.rec-carousel-item:focus {
+  outline: none;
+}
+.rec.rec-arrow:hover {
+  border-radius: 10%;
+}
+.rec.rec-arrow {
+  display: none;
+}
+.rec.rec-pagination {
+  display: none;
+}
+.circle {
+  width: 6px;
+  height: 6px;
+  border: 1px solid gray;
+  background: rgb(179, 176, 176);
+  border-radius: 100%;
+}
+.row {
+  display: flex;
+}
+.isActiveSlide {
+  background: black;
+}
